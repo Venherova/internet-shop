@@ -28,6 +28,7 @@
     "no-param-reassign": ["off"],
     "no-nested-ternary": ["off"],
     "no-console": ["off"],
-    "import/no-unresolved": ["off"]
+    "import/no-unresolved": ["off"],
+    "react/no-array-index-key": ["off"]
   }
 }

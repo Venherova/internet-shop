@@ -26,6 +26,28 @@
       "slug": "calvin_klein"
     }
   ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryname": "Casual",
+      "slug": "casual"
+    },
+    {
+      "id": 2,
+      "categoryname": "Party",
+      "slug": "party"
+    },
+    {
+      "id": 3,
+      "categoryname": "Formal",
+      "slug": "formal"
+    },
+    {
+      "id": 4,
+      "categoryname": "Gym",
+      "slug": "gym"
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -43,7 +65,8 @@
       "isNew": true,
       "isSale": false,
       "reviews": [],
-      "brands": ["versace"]
+      "brands": ["versace"],
+      "categories": ["party"]
     },
     {
       "id": 2,
@@ -61,7 +84,8 @@
       "isNew": true,
       "isSale": true,
       "reviews": [],
-      "brands": ["zara"]
+      "brands": ["zara"],
+      "categories": ["casual"]
     },
     {
       "id": 3,
@@ -79,7 +103,8 @@
       "isNew": true,
       "isSale": false,
       "reviews": [],
-      "brands": ["gucci"]
+      "brands": ["gucci"],
+      "categories": ["formal"]
     },
     {
       "id": 4,
@@ -97,7 +122,8 @@
       "isNew": true,
       "isSale": true,
       "reviews": [],
-      "brands": ["calvin_klein"]
+      "brands": ["calvin_klein"],
+      "categories": ["casual"]
     },
     {
       "id": 5,
@@ -109,14 +135,15 @@
       "discountedPrice": 212,
       "discount": 9,
       "rating": 5,
-      "images": ["5"],
+      "images": ["5", "5", "5"],
       "colors": ["black", "brown", "green"],
       "sizes": ["Small", "Medium", "Large", "X-Large"],
       "count": 1,
       "isNew": false,
       "isSale": true,
       "reviews": [],
-      "brands": ["calvin_klein"]
+      "brands": ["calvin_klein"],
+      "categories": ["formal"]
     },
     {
       "id": 6,
@@ -135,7 +162,8 @@
       "isNew": false,
       "isSale": false,
       "reviews": [],
-      "brands": ["prada"]
+      "brands": ["prada"],
+      "categories": ["party"]
     },
     {
       "id": 7,
@@ -154,7 +182,8 @@
       "isNew": true,
       "isSale": false,
       "reviews": [],
-      "brands": ["versace"]
+      "brands": ["versace"],
+      "categories": ["casual"]
     },
     {
       "id": 8,
@@ -173,7 +202,8 @@
       "isNew": false,
       "isSale": false,
       "reviews": [],
-      "brands": ["prada"]
+      "brands": ["prada"],
+      "categories": ["formal"]
     },
     {
       "id": 9,
@@ -191,7 +221,8 @@
       "isNew": false,
       "isSale": true,
       "reviews": [],
-      "brands": ["gucci"]
+      "brands": ["gucci"],
+      "categories": ["party"]
     },
     {
       "id": 10,
@@ -209,7 +240,8 @@
       "isNew": false,
       "isSale": true,
       "reviews": [],
-      "brands": ["zara"]
+      "brands": ["zara"],
+      "categories": ["formal"]
     },
     {
       "id": 11,
@@ -228,7 +260,8 @@
       "isNew": true,
       "isSale": false,
       "reviews": [],
-      "brands": ["prada"]
+      "brands": ["prada"],
+      "categories": ["party"]
     },
     {
       "id": 12,
@@ -247,7 +280,8 @@
       "isNew": true,
       "isSale": false,
       "reviews": [],
-      "brands": ["zara"]
+      "brands": ["zara"],
+      "categories": ["formal"]
     }
   ],
   "reviews": [
